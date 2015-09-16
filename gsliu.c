@@ -12,7 +12,7 @@ static void __exit exit_function(void)
 	printk(KERN_INFO "gliu unloading\n");
 }
 module_init(init_function);
-modue_exit(exit_function);
+module_exit(exit_function);
 MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("gsliu");
 MODULE_DESCRIPTION(" gsliu module");
